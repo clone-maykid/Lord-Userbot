@@ -349,20 +349,20 @@ async def koc(e):
         await e.edit("`GABUT`")
 
 
-@register(outgoing=True, pattern='^.terkadang(?: |$)(.*)')
+@register(outgoing=True, pattern='^.gua(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("`Terkadang`")
+    await typew.edit("`Gua Ganteng`")
     sleep(1)
-    await typew.edit("`Mencintai Seseorang`")
+    await typew.edit("`Lu Buriq Ngentot 🤣`")
     sleep(1)
-    await typew.edit("`Hanya Akan Membuang Waktumu`")
+    await typew.edit("🤣")
     sleep(1)
-    await typew.edit("`Ketika Waktumu Habis`")
+    await typew.edit("`Fixs Gua Ganteng Titit🤣`")
     sleep(1)
-    await typew.edit("`Tambah Aja 5000`")
+    await typew.edit("`Jangan Bacot🤣`")
     sleep(1)
-    await typew.edit("`Bercanda`")
+    await typew.edit("`Hahahaha`")
 # Create by myself @localheart
 
 
@@ -444,6 +444,6 @@ CMD_HELP.update({
     \nUsage: mengirim cintamu ke seseorang.\
     \n\n`.sayang`\
     \nUsage: untuk jadi buaya.\
-    \n\n`.terkadang`\
+    \n\n`.gua`\
     \nUsage: Auk dah iseng doang."
 })
