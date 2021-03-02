@@ -159,7 +159,7 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**☛**Lord-Userbot Versi:** \n "
+            "**☛**Maykid-Userbot Versi:** \n "
             f"{verout}"
             "\n**☛**Revisi:**\n "
             f"{revout}"
@@ -269,7 +269,7 @@ async def amireallyalive(alive):
         f"⚡️ **Python**   \n   ➥ `Versi {python_version()}` \n"
         f"⚡️ **Versi Bot**\n   ➥ `{BOT_VER}` \n"
         f"⚡️ **Modul**    \n   ➥ `{len(modules)}` \n\n"
-        f"⚡️ **Repo Userbot:** [Maykid-Userbot](https://github.com/clone-maykid/Lord-Userbot)\n⚡️ **Grup Userbot: **[Tekan](t.me/LordUserbot_Group)\n⚡️ **Pemilik:** [gunggg](t.me/aestheticboyy2)\n"
+        f"⚡️ **Repo Userbot:** [Maykid-Userbot](https://github.com/clone-maykid/Lord-Userbot)\n⚡️ **Grup Userbot: **[Tekan](t.me/cari_jodohV2)\n⚡️ **Pemilik:** [gunggg](t.me/aestheticboyy2)\n"
         f"**▬▬▬▬▬▬❙۩⚡️۩❙▬▬▬▬▬▬**")
     if ALIVE_LOGO:
         try:
@@ -305,7 +305,7 @@ async def amireallyalive(alive):
         f"__Yang Digunakan Untuk Bersenang-Senang__ "
         f"__Di Telegram__ __Versi Bot Yang Digunakan__ `{BOT_VER}` "
         f"__Jumlah Modul Dalam Maykid Userbot__ `{len(modules)}` \n\n"
-        f"⚡️ **Repo Userbot:** [Maykid-Userbot](https://github.com/clone-maykid/Lord-Userbot)\n⚡️ **Grup Userbot: **[Tekan](t.me/LordUserbot_Group)\n⚡️ **Pemilik:** [gunggg](t.me/aestheticboyy2)\n")
+        f"⚡️ **Repo Userbot:** [Maykid-Userbot](https://github.com/clone-maykid/Lord-Userbot)\n⚡️ **Grup Userbot: **[Tekan](t.me/cari_jodohV2)\n⚡️ **Pemilik:** [gunggg](t.me/aestheticboyy2)\n")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
