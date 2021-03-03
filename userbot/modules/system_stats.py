@@ -296,16 +296,14 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f" **┗┓MAYKID USERBOT┏┛** \n\n"
-        f"⚡️ **Maykid:** \n"
-        f" `{DEFAULTUSER}` \n"
-        f"⚡️ **Username:** \n"
-        f" `@{user.username}` \n\n"
-        f"__Maykid-Userbot Adalah Userbot Khusus__ "
-        f"__Yang Digunakan Untuk Bersenang-Senang__ "
-        f"__Di Telegram__ __Versi Bot Yang Digunakan__ `{BOT_VER}` "
-        f"__Jumlah Modul Dalam Maykid Userbot__ `{len(modules)}` \n\n"
-        f"⚡️ **Repo Userbot:** [Maykid-Userbot](https://github.com/clone-maykid/Lord-Userbot)\n⚡️ **Grup Userbot: **[Tekan](t.me/cari_jodohV2)\n⚡️ **Pemilik:** [gunggg](t.me/aestheticboyy2)\n")
+        f" **_ Maykid Bot | Gunggg _** \n"
+        f"**-------------------------**\n\n"
+        f" ☆ **Owner      :** [Gunggg](t.me/aestheticboyy2)\n"
+        f" ☆ **Telethon :** Ver {version.__version__} \n"
+        f" ☆ **Python     :** Ver `{python_version()}` \n"
+        f" ☆ **Kid Ver  :** Ver `{BOT_VER}` \n"
+        f" ☆ **Modules    :** `{len(modules)}` \n\n"
+        f"[GungggBot](https://github.com/clone-maykid/Lord-Userbot) | [Support](t.me/cari_jodohV2) | [Insta](https://www.instagram.com/gungg_14)\n")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
